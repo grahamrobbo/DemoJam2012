@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>DemoJam Functions</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEMOJAMTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEMOJAM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZARDRONE_PROXY</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>ARDrone Control Proxy</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>COMMAND</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>STRING</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ALTITUDE</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-ALTITUDE</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>BATTERYLEVEL</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-BATTERYLEVEL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>PHI</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-PHI</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>PSI</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-PSI</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>THETA</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-THETA</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>VX</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-VX</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>VY</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-VY</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>VZ</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-VZ</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>IMAGEFILE</PARAMETER>
+       <TYP>ZARDRONE_NAVDATA-IMAGEFILE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>COMMAND</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>ARDrone Command</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ALTITUDE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Integer type from .Net connector</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>BATTERYLEVEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Integer type from .Net connector</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PHI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Double type from .Net Connector</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PSI</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Double type from .Net Connector</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>THETA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Double type from .Net Connector</STEXT>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Double type from .Net Connector</STEXT>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Double type from .Net Connector</STEXT>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>VZ</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Double type from .Net Connector</STEXT>
+       <INDEX> 009</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IMAGEFILE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>String</STEXT>
+       <INDEX> 010</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
